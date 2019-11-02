@@ -1,25 +1,37 @@
 ---
-title: "Min fina titel"
+title: "Om mig"
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Hej, jag heter Hanna och pluggar Webbprogrammering och Databaser på distans på BTH.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Utöver plugget jobbar jag och anledningen till att jag började plugga var faktiskt mitt nuvarande jobb.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+På grund av jobbet blev jag intresserad av databas och programmering och började att lära mig själv att koda.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Mitt intresse för programmering blev större och större med tiden och då kände jag att jag behövde nåt slags utbildning
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+så att jag skulle kunna ha en mentor och en vägledning i lärandet. Därför är jag här nu.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Fast det inte är lätt att jobba heltid och pluggar samtidigt. tycker jag att det är kul att lära mig saker i kursen och att känna mig utvecklad.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+När jag inte jobbar eller pluggar tycker jag om att köra yoga, läsa, skriva, dansa och laga mat.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Jag tycker att träningen är viktigt för att hålla balans mellan olika saker i livet eftersom den bidrar till ens fysiska och psykiska hälsa.
 
-Vi syns och hörs i forum och chatt!
 
-/Mikael
+[FIGURE src="image/mepic.jpg?w=400" class="right" caption="Bild på mig"]
+
+
+/Hanna

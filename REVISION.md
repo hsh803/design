@@ -1,7 +1,7 @@
 Revision history
 ================
 
-version 1.0.0 (2019-10-28)
+Version 1.0.0 (2019-11-02)
 --------------------------
 
-* Adding revision and license.
+* Uppdatering enligt kmom01 
