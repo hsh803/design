@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom01.css",
+                "css/kmom02.min.css",
                 //"css/kmom01.css",
             ],
             "javascripts" => [
@@ -35,7 +35,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/duck.png?width=120&height=75&crop-to-fit",
+                "siteLogo"      => "image/duck.jpg?width=60&height=50&crop-to-fit",
                 "siteLogoAlt"   => "Debug Duck",
             ],
         ],
@@ -44,7 +44,7 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "design",
+                "siteLogoText"  => "Design",
                 #"siteLogoTextIcon" => "",
                 "siteLogoTextIconAlt" => "Löv-bild",
             ],
