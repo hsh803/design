@@ -9,3 +9,8 @@ Version 2.0.0 (2019-11-10)
 --------------------------
 
 * Uppdatering enligt kmom02
+
+Version 3.0.0 (2019-11-23)
+--------------------------
+
+* Uppdatering enligt kmom03
