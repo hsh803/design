@@ -13,4 +13,4 @@ Gå till [Kursens GitHub-repot](https://github.com/hsh803/design)
 Gå till [GitHub-repot för min me-sida](https://github.com/hsh803/design/tree/master/content)
 
 
-[FIGURE src=image/design.png?w=300 caption="Web design"]
+[FIGURE src=image/web.png?w=300 caption="Web design"]

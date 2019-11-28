@@ -1,0 +1,96 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+//General layout
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.outer-wrap-header {
+  height: 48px;
+  margin: 12px 0;
+  .clearfix();
+}
+
+.inner-wrap-header {
+  max-width: 100%;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+  width: 15%;
+  float: left;
+}
+
+.region-header-col-2 {
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+
+//main, sidebars layout
+.region-main {
+  width: 70%;
+  float: left;
+
+  &.has-sidebar-left.has-sidebar-right {
+    width: 60%;
+  }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+  width: 30%;
+  float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  width: 20%;
+}
+
+//footer layout
+.footer-column-wrapper {
+  clear: both;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+.region-footer {
+  margin-top: 80px;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    padding-bottom:17px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 24px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    border-right: 1px solid #666;
+}
+
+.footer-column-2,
+.footer-column-3 {
+    padding-left: 15px;
+}
+
+.footer-column-x {
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
