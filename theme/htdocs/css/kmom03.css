@@ -5374,7 +5374,6 @@ hr::after {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  background-color: pink;
   margin-bottom: 6px;
 }
 .row::after {
@@ -5409,9 +5408,6 @@ hr::after {
   .vgrid .inner-wrap.inner-wrap-header {
     background-size: 100% auto;
   }
-}
-.outer-wrap-header {
-  background-color: pink;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5544,9 +5540,8 @@ hr::after {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  padding-bottom: 17px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #666;
-  padding-bottom: 24px;
   margin-top: 80px;
   margin-bottom: 20px;
 }

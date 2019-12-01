@@ -75,11 +75,48 @@
 // Magic number and base fontsize
 @magicNumber:  24px;
 @fontSizeBody: 16px;
+
 @bgColorBody: #fff;
+@colorGreen: #08674D;
+@colorPink: pink;
 
-@colorH4BorderBottom: #000;
+.inner-wrap-header,
+.inner-wrap-footer,
+.rm-max .rm-mobile {
+  background-color: @colorGreen;//(8,103,77), #07634A
+}
 
-// Default font-families
-@fontFamilyHeadings: @fontFamilyGaramond;
-@fontFamilyBody:     @fontFamilyGaramond;
-@fontFamilyCode:     @fontFamilyGaramond;
+.inner-wrap-main {
+  background-color: @colorPink;
+}
+
+.inner-wrap-footer h4 {
+  border-bottom-color: @colorPink;
+}
+
+.inner-wrap-main h1,
+.inner-wrap-main h4 {
+  border-bottom-color: @colorGreen;
+}
+
+.inner-wrap-main h1,
+.inner-wrap-main h2,
+.inner-wrap-main h3,
+.inner-wrap-main h4,
+.inner-wrap-main h5,
+.inner-wrap-main h6 {
+  color: @colorGreen;
+}
+
+a, a:visited {
+  color: @colorGreen;
+}
+
+li, .site-logo-text a,
+.inner-wrap-footer {
+  color: @colorPink;
+}
+
+@fontFamilyHeadings: @fontFamilyCourier;
+@fontFamilyBody:     @fontFamilyCourier;
+@fontFamilyCode:     @fontFamilyCourier;

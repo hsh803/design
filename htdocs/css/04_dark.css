@@ -5041,8 +5041,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #fff;
-  font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  background-color: #8B8378;
+  font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 img {
   max-width: 100%;
@@ -5053,7 +5053,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5108,7 +5108,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5177,7 +5177,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 code,
 samp {
@@ -5626,3 +5626,18 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+a,
+a:visited {
+  color: #5A29CE;
+}
+li,
+.site-logo-text a,
+.inner-wrap-footer {
+  color: #D3D8D8;
+}
+.inner-wrap-main h4 {
+  border-bottom-color: #666;
+}
+.inner-wrap-footer h4 {
+  border-bottom-color: #D3D8D8;
+}

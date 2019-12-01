@@ -5042,7 +5042,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font: 16px/1.5 "Courier New", Courier, monospace;
 }
 img {
   max-width: 100%;
@@ -5053,7 +5053,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5108,7 +5108,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -5177,7 +5177,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
 }
 code,
 samp {
@@ -5626,3 +5626,35 @@ hr::after {
 /**
  * My own settings, not currently in their own module.
  */
+.inner-wrap-header,
+.inner-wrap-footer,
+.rm-max .rm-mobile {
+  background-color: #08674D;
+}
+.inner-wrap-main {
+  background-color: pink;
+}
+.inner-wrap-footer h4 {
+  border-bottom-color: pink;
+}
+.inner-wrap-main h1,
+.inner-wrap-main h4 {
+  border-bottom-color: #08674D;
+}
+.inner-wrap-main h1,
+.inner-wrap-main h2,
+.inner-wrap-main h3,
+.inner-wrap-main h4,
+.inner-wrap-main h5,
+.inner-wrap-main h6 {
+  color: #08674D;
+}
+a,
+a:visited {
+  color: #08674D;
+}
+li,
+.site-logo-text a,
+.inner-wrap-footer {
+  color: pink;
+}

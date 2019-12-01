@@ -75,11 +75,27 @@
 // Magic number and base fontsize
 @magicNumber:  24px;
 @fontSizeBody: 16px;
-@bgColorBody: #fff;
+@bgColorBody: #8B8378;
+@colorDark: #D3D8D8;
 
-@colorH4BorderBottom: #000;
+a, a:visited {
+  color: #5A29CE;
+}
+
+li, .site-logo-text a,
+.inner-wrap-footer {
+  color: @colorDark;
+}
+
+.inner-wrap-main h4 {
+  border-bottom-color: #666;
+}
+
+.inner-wrap-footer h4 {
+  border-bottom-color: @colorDark;
+}
 
 // Default font-families
-@fontFamilyHeadings: @fontFamilyGaramond;
-@fontFamilyBody:     @fontFamilyGaramond;
-@fontFamilyCode:     @fontFamilyGaramond;
+@fontFamilyHeadings: @fontFamilyVerdana;
+@fontFamilyBody:     @fontFamilyVerdana;
+@fontFamilyCode:     @fontFamilyVerdana;
