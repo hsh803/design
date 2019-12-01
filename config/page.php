@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom03.min.css",
+                "css/04_colorful.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -34,7 +34,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/duck.jpg?width=60&height=50&crop-to-fit",
+                "siteLogo"      => "img/theme/leaf_40x40.png?width=60&height=50&crop-to-fit",
                 "siteLogoAlt"   => "Debug Duck",
             ],
         ],
