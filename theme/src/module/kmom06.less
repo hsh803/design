@@ -1,0 +1,99 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+/* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+// h1 {
+//    border-bottom: 1px solid #666;
+//  }
+
+ figcaption p {
+     margin: 0;
+ }
+
+ .figure {
+   margin: 0;
+ }
+
+ .byline {
+     display: block;
+     width: 470px;
+     padding: 7px;
+     border: 1px solid #000;
+     border-radius: 6px;
+ }
+
+ .byline img {
+     margin: 0;
+     width: 100px;
+     padding: 0 6px;
+     float: left;
+ }
+
+ .byline div {
+     overflow: auto;
+ }
+
+.box {
+  display: inline-block;
+  background-color: #ECDD53;
+  border: 3px solid #ECDD53;
+  padding: 15px;
+  color: #0f4c81;
+  font-weight: bold;
+}
+
+.frame {
+  margin: 20px;
+  text-align:center;
+  font-size:20px;
+}
+
+.colors {
+  width: 100px;
+  height: 100px;
+  background-color: #0f4c81;
+  animation-name: color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+@-webkit-keyframes color {
+  0%   {background-color: #0f4c81;}
+  25%  {background-color: #194052;}
+  50%  {background-color: #fa3c5a;}
+  100% {background-color: #ECDD53;}
+}
+
+.move {
+  width: 100px;
+  height: 100px;
+  background-color: #0f4c81;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  margin: auto;
+  position: relative;
+}
+
+@-webkit-keyframes move {
+  0%   {background-color:#0f4c81; left:0px; top:0px;}
+  25%  {background-color:#194052; left:200px; top:0px;}
+  50%  {background-color:#fa3c5a; left:200px; top:100px;}
+  75%  {background-color:#ECDD53; left:0px; top:100px;}
+  100% {background-color:#0f4c81; left:0px; top:0px;}
+}

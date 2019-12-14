@@ -20,7 +20,7 @@ Bilden var tagen i Sigtuna i somras då promenerade jag längs vattnet och hade 
 </figure>
 
 <figure class="figure">
-    <img src="image/sommar.jpg?w=350&save-as=jpg&q=100&aro&rb=-15" alt="Sommar">
+    <img src="image/sommar.jpg?w=350&save-as=jpg&q=100&aro&rb=-15&r=180" alt="Sommar">
     <figcaption>
         <p>Bilden med texten är vriden.</p>
     </figcaption>

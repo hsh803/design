@@ -63,5 +63,15 @@ return [
             "url" => "blogg",
             "title" => "Blogg",
         ],
+        [
+            "text" => "Prgrammering",
+            "url" => "programmering",
+            "title" => "Programmering",
+        ],
+        [
+            "text" => "Animation",
+            "url" => "animation",
+            "title" => "Animation",
+        ],
     ],
 ];

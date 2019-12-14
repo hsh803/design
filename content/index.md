@@ -31,7 +31,7 @@ När jag inte jobbar eller pluggar tycker jag om att köra yoga, läsa, skriva, 
 Jag tycker att träningen är viktigt för att hålla balans mellan olika saker i livet eftersom den bidrar till ens fysiska och psykiska hälsa.
 
 
-[FIGURE src="image/mepic.jpg?w=400" class="right" caption="Bild på mig"]
+[FIGURE src="image/mepic.jpg?w=400" caption="Bild på mig"]
 
 
 /Hanna
