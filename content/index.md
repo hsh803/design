@@ -2,36 +2,29 @@
 title: "Om mig"
 
 views:
-    byline:
-        region: main
-        template: anax/v2/block/default
-        sort: 2
-        data:
-            meta:
-                type: single
-                route: block/byline
+
+    kursrepo:
+            region: sidebar-right
+            template: anax/v2/block/default
+            data:
+                meta:
+                    type: single
+                    route: block/github
+
 ---
-Min me-sida i kursen design
+Vad kan jag hjälpa dig med?
 =========================
 
-Hej, jag heter Hanna och pluggar Webbprogrammering och Databaser på distans på BTH.
+I denna hemsida kan ni hitta mer om min bakgrund inom Webbutveckling.
 
-Utöver plugget jobbar jag och anledningen till att jag började plugga var faktiskt mitt nuvarande jobb.
+Mitt intresse för Webbutveckling och programmering började sedan 2016 tack vare mitt nuvarande jobb.
 
-På grund av jobbet blev jag intresserad av databas och programmering och började att lära mig själv att koda.
+På jobbet fick jag lära mig och jobba med databashantering och xml-kodning och det väckte mitt intresse för databas och programmering.
 
-Mitt intresse för programmering blev större och större med tiden och då kände jag att jag behövde nåt slags utbildning
+Först började jag kolla på nätet och lära mig själv olika programmeringsspråk och det ledde till att plugga Webbutveckling i skolan för att kunna lära mig mer ordentligt.
 
-så att jag skulle kunna ha en mentor och en vägledning i lärandet. Därför är jag här nu.
+Nu vågar jag ta ett steg fram och uppleva arbetsliv som programmerare och webbutvecklare på marknaden.
 
-Fast det inte är lätt att jobba heltid och pluggar samtidigt. tycker jag att det är kul att lära mig saker i kursen och att känna mig utvecklad.
-
-När jag inte jobbar eller pluggar tycker jag om att köra yoga, läsa, skriva, dansa och laga mat.
-
-Jag tycker att träningen är viktigt för att hålla balans mellan olika saker i livet eftersom den bidrar till ens fysiska och psykiska hälsa.
-
+Jag känner att jag är redo för detta och vill gärna bidra min kunskap och erfarenhet till era arbeten.
 
 [FIGURE src="image/mepic.jpg?w=400" caption="Bild på mig"]
-
-
-/Hanna

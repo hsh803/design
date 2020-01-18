@@ -1,3 +1,3 @@
-#### Nytt och Noterat
+#### Nyheter
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Hitta nya uppdateringar och nyheter hos mig!

@@ -1,3 +1,0 @@
-#### Kursrepo
-
-Kursrepo omfattar design.

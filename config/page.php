@@ -19,7 +19,7 @@ return [
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/kmom05.min.css",
+                "css/kmom10.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -34,7 +34,7 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "img/theme/leaf_40x40.png?width=60&height=50&crop-to-fit",
+                "siteLogo"      => "img/theme/duck.jpeg?w=40&crop-to-fit",
                 "siteLogoAlt"   => "Debug Duck",
             ],
         ],
@@ -43,7 +43,7 @@ return [
             "template" => "anax/v2/header/site_logo_text",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Design",
+                "siteLogoText"  => "Webbutveckling",
                 #"siteLogoTextIcon" => "",
                 "siteLogoTextIconAlt" => "Löv-bild",
             ],

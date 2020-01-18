@@ -5117,7 +5117,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 16px/1.5 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font: 16px/1.5 "Courier New", Courier, monospace;
 }
 img {
   max-width: 100%;
@@ -5128,7 +5128,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5921,16 +5921,16 @@ figure.figure-codepen {
 }
 @-webkit-keyframes hs {
   0% {
-    color: #0f4c81;
+    color: #7ac5cd;
   }
   25% {
-    color: #194052;
+    color: #fbaac4;
   }
   50% {
-    color: #fa3c5a;
+    color: #eafc78;
   }
   100% {
-    color: #ECDD53;
+    color: #c7c3f5;
   }
 }
 a,
@@ -5939,4 +5939,14 @@ a:visited {
 }
 li a:hover {
   color: #194052;
+}
+.site-logo img {
+  width: 40px;
+}
+.next-previous {
+  float: left;
+  clear: both;
+}
+p.readmore {
+  clear: both;
 }

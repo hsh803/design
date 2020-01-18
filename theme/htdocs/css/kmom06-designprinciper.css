@@ -4762,10 +4762,10 @@ figcaption p {
 }
 .box {
   display: inline-block;
-  background-color: #ECDD53;
-  border: 3px solid #ECDD53;
+  background-color: #b6ddc4;
+  border: 3px solid #b6ddc4;
   padding: 15px;
-  color: #0f4c81;
+  color: #8d7ff7;
   font-weight: bold;
 }
 .frame {

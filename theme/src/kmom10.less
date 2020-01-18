@@ -1,0 +1,126 @@
+/*!
+ * LESS version of the stylesheet for design kmom06-designelement.
+ *
+ * This stylesheet is for the design course and kmom03. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+
+@import "mixin/clearfix.less";
+
+.clearfix() {
+  #design-mixin.clearfix();
+}
+
+// normalize and reset the style.
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/kmom06.less";
+//@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+
+/**
+ * Typographic.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+//show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+
+/**
+ * A grid style.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+
+@import "@desinax/figure/less/style.less";
+@import "@desinax/figure/less/figure_from_canax.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ // Magic number and base fontsize
+ @magicNumber:  24px;
+ @fontSizeBody: 16px;
+
+ .inner-wrap-main h1,
+ .inner-wrap-main h2,
+ .inner-wrap-main h3,
+ .inner-wrap-main h4,
+ .inner-wrap-footer h4 {
+   color: #fa3c5a;
+   border-bottom-color: #fff;
+   animation-name: hs;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+ }
+
+ .inner-wrap-main h5 {
+   border-bottom-color: #fff;
+ }
+
+ @-webkit-keyframes hs {
+   0%   {color: #7ac5cd;}
+   25%  {color: #fbaac4;}
+   50%  {color: #eafc78;}
+   100% {color: #c7c3f5;}
+ }
+
+ a, a:visited {
+   color: #000;
+ }
+
+ li a:hover {
+   color: #194052;
+ }
+
+ .site-logo img {
+   width: 40px;
+ }
+
+.next-previous {
+   float: left;
+   clear: both;
+ }
+
+ p.readmore {
+    clear: both;
+}
+ // Default font-families
+ @fontFamilyHeadings: @fontFamilyCourier;
+ @fontFamilyBody:     @fontFamilyCourier;
+ @fontFamilyCode:     @fontFamilyVerdana;
